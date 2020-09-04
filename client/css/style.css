@@ -1,0 +1,57 @@
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  background-color: rgba(20, 18, 18, 0.493);
+}
+
+body {
+  background-image: url(../img/4.jpg);
+  background: cover;
+  background-repeat: no-repeat;
+}
+
+.list-item {
+  color: rgb(216, 211, 211);
+  font-size: 15px;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.315);
+  cursor: pointer;
+}
+
+#content {
+  color: rgb(216, 211, 211);
+}
+
+.list-item.active {
+  background-color: rgba(177, 177, 177, 0.253);
+  color: rgb(255, 255, 255);
+}
+
+.list-item:hover {
+  color: rgb(255, 255, 255);
+}
+
+.list-item h5 {
+  margin-bottom: 0.25rem;
+}
+
+.list-item small {
+  color: rgba(255, 255, 255, 0.678);
+}
+
+.list-item h5, .list-item small {
+  pointer-events: none;
+}
+
+.modal-content {
+  background-color: rgba(163, 163, 163, 0.863);
+}
+
+.edit-textarea {
+  background-color: rgb(224, 224, 224);
+}
+
+.dataContentDiv {
+  color: white;
+}
